@@ -1,0 +1,13 @@
+language: php
+
+php:
+  - 7.4
+
+sudo: false
+
+env:
+  - APP_DEBUG=false
+
+install:
+  - composer install
+  - npm install
